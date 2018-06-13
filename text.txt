@@ -1,0 +1,21 @@
+### custom modules used
+- `crater_preprocessing.py`
+- `crater_loader.py`
+- `crater_data.py`: classes for data management. Similar to tensorflows datasets
+- `crater_cnn.py`: the class for CNN implementation
+- `crater_nn.py`: the class for NN implementation
+- `network_blocks.py`: some methods to build CNN structure
+- `crater_plots.py`: some methods to display plots from CNN
+- `helper.py`: some miscelaneous helper functions
+
+### scripts for experiment
+- `train_cnn.py`: for model training. It generates a files that can be loaded
+- `training_nn.py`: for model training. It generates a files that can be loaded
+- `sliding_window_2networks.py`: loads both models and perform crater detection while sliding through the image
+- `remove_duplicates.py`: processes csv outputs from sliding. Removes duplicated detections
+
+### example code
+- `use_trained_model.py`
+- `visualize_rectangles.py`
+- `crater_slice_window.py`
+- `xmeans.py`
